@@ -51,11 +51,11 @@ const Home = () => {
                 <div className="about_image">
 
                     <div className="heading">
-                        <h1>Paste Link & Download</h1>
+                        Paste Link & Download
                     </div>
 
                     <div className="image">
-                        <img src="./public/load_insta.svg" alt="" />
+                        <img src="./load_insta.svg" alt="" />
                     </div>
                 </div>
 
