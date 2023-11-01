@@ -3,6 +3,8 @@ import Home from "./compnents/Home"
 import ErrorPage from "./compnents/ErrorPage"
 import Nav from "./compnents/Nav"
 import './App.css'
+import Footer from "./compnents/Footer"
+
 
 const App = () => {
   return (
@@ -14,6 +16,7 @@ const App = () => {
           <Route path="*" element={<ErrorPage />} />
         </Routes>
       </Router>
+      <Footer/>
     </>
   )
 }

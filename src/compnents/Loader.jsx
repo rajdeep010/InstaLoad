@@ -3,7 +3,7 @@ import '../styles/loader.scss'
 
 const override = {
     display: "block",
-    margin: "4rem auto",
+    margin: "2rem auto",
     borderColor: "red",
 };
 

@@ -1,0 +1,24 @@
+.footer_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #542bdd;
+    gap: 1rem;
+    padding: 0.5rem;
+
+    .about_me {
+        color: #fff;
+    }
+
+    .icons {
+        display: flex;
+        gap: 2rem;
+
+        a {
+            font-size: 1.5rem;
+            color: #fff;
+        }
+    }
+
+}
