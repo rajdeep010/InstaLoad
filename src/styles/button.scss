@@ -1,0 +1,23 @@
+
+
+
+.download_button {
+    padding: 1rem 1.3rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1.8rem;
+    border-radius: 0.4rem;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(173, 57, 155, 1) 0%, #542bdd 100%, rgba(255, 255, 255, 1) 100%);
+    transition: 0.5s ease;
+
+    text-decoration: none;
+
+    &:hover {
+        border: 1px solid #542bdd;
+        scale: 1.05;
+        color: #542bdd;
+        background: #f0f0f0;
+    }
+}
