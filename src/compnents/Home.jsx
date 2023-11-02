@@ -70,9 +70,10 @@ const Home = () => {
 
                     <div className="download_box">
                         {loading && <Loader />}
-                        {mediaURL && !loading && !errorStatus && <Button url={mediaURL} />}
                         {errorStatus && <ErrorPage />}
                     </div>
+
+                    {mediaURL && !loading && !errorStatus && <Button url={mediaURL} />}
                 </div>
 
             </div>
